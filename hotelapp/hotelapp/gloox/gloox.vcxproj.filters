@@ -1,0 +1,843 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="adhoc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="adhoccommandprovider.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="adhochandler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="adhocplugin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="amp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="annotations.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="annotationshandler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="atomicrefcount.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="attention.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base64.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bookmarkhandler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bookmarkstorage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bytestream.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bytestreamdatahandler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bytestreamhandler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="capabilities.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="carbons.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="chatstate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="chatstatefilter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="chatstatehandler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="client.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="clientbase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="component.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="compressionbase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="compressiondatahandler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="compressiondefault.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="compressionzlib.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="connectionbase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="connectionbosh.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="connectiondatahandler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="connectionhandler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="connectionhttpproxy.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="connectionlistener.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="connectionsocks5proxy.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="connectiontcpbase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="connectiontcpclient.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="connectiontcpserver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="connectiontls.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="connectiontlsserver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dataform.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dataformfield.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dataformfieldcontainer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dataformitem.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dataformreported.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="delayeddelivery.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="disco.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="discohandler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="disconodehandler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dns.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="error.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="event.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="eventdispatcher.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="eventhandler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="featureneg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="flexoff.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="flexoffhandler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="forward.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="gloox.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="glooxversion.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="gpgencrypted.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="gpgsigned.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="inbandbytestream.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="instantmucroom.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="iodata.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="iq.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="iqhandler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="jid.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="jinglecontent.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="jinglefiletransfer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="jingleiceudp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="jingleplugin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="jinglepluginfactory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="jinglesession.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="jinglesessionhandler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="jinglesessionmanager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lastactivity.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lastactivityhandler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="linklocal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="linklocalclient.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="linklocalhandler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="linklocalmanager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="loghandler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="logsink.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="macros.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="md5.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="message.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="messageevent.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="messageeventfilter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="messageeventhandler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="messagefilter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="messagehandler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="messagesession.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="messagesessionhandler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mucinvitationhandler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mucmessagesession.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mucroom.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mucroomconfighandler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mucroomhandler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mutex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mutexguard.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nickname.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nonsaslauth.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="oob.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="parser.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="prep.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="presence.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="presencehandler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="privacyitem.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="privacylisthandler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="privacymanager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="privatexml.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="privatexmlhandler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pubsub.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pubsubevent.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pubsubitem.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pubsubmanager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pubsubresulthandler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="receipt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="registration.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="registrationhandler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rosteritem.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rosteritemdata.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rosterlistener.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rostermanager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="search.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="searchhandler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sha.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="shim.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sihandler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="simanager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="siprofileft.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="siprofilefthandler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="siprofilehandler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="socks5bytestream.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="socks5bytestreammanager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="socks5bytestreamserver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="softwareversion.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stanza.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stanzaextension.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stanzaextensionfactory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="statisticshandler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="subscription.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="subscriptionhandler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tag.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="taghandler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tlsbase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tlsdefault.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tlsgnutlsbase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tlsgnutlsclient.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tlsgnutlsclientanon.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tlsgnutlsserveranon.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tlshandler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tlsopensslbase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tlsopensslclient.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tlsopensslserver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tlsschannel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="uniquemucroom.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vcard.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vcardhandler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vcardmanager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vcardupdate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="xhtmlim.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="xhtmlim.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vcardupdate.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vcardmanager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vcard.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="util.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="uniquemucroom.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tlsschannel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tlsopensslserver.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tlsopensslclient.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tlsopensslbase.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tlsgnutlsserveranon.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tlsgnutlsclientanon.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tlsgnutlsclient.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tlsgnutlsbase.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tlsdefault.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tag.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="subscription.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stanzaextensionfactory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stanza.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="softwareversion.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="socks5bytestreamserver.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="socks5bytestreammanager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="socks5bytestream.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="siprofileft.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="simanager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="shim.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sha.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="search.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="rostermanager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="rosteritem.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="registration.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="receipt.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pubsubmanager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pubsubitem.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pubsubevent.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="privatexml.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="privacymanager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="privacyitem.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="presence.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="prep.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="parser.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="oob.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nonsaslauth.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nickname.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mutex.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mucroom.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mucmessagesession.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mucinvitationhandler.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="messagesession.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="messagefilter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="messageeventfilter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="messageevent.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="message.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="md5.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="logsink.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="linklocalmanager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="linklocalclient.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lastactivity.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jinglesessionmanager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jinglesession.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jinglepluginfactory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jingleiceudp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jinglefiletransfer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jinglecontent.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="jid.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="iq.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="iodata.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="instantmucroom.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="inbandbytestream.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="gpgsigned.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="gpgencrypted.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="gloox.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="forward.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="flexoff.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="featureneg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="eventdispatcher.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="error.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dns.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="disco.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="delayeddelivery.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dataformreported.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dataformitem.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dataformfieldcontainer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dataformfield.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dataform.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="connectiontlsserver.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="connectiontls.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="connectiontcpserver.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="connectiontcpclient.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="connectiontcpbase.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="connectionsocks5proxy.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="connectionhttpproxy.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="connectionbosh.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="compressionzlib.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="compressiondefault.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="component.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="clientbase.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="client.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chatstatefilter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="chatstate.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="carbons.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="capabilities.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bookmarkstorage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="base64.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="attention.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="atomicrefcount.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="annotations.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="amp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="adhoc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

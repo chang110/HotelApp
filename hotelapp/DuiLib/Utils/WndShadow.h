@@ -84,7 +84,7 @@ protected:
 	RECT m_rcHoleOffset;
 
 public:
-	static bool Initialize(HINSTANCE hInstance);
+	 static bool Initialize(HINSTANCE hInstance);
 
 	HWND GetHWND() const;
 	operator HWND() const;
